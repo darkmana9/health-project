@@ -34,7 +34,6 @@ export const HeaderLogo = styled.div`
     padding-left: 16px;
   }
 `
-
 export const HeaderMenuLinksWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -75,7 +74,6 @@ export const HeaderMenuLinksWrapper = styled.nav`
     display: none;
   }
 `
-
 export const HeaderMenuAuthorizationWrapper = styled.div`
   display: flex;
   align-items: center;
@@ -85,7 +83,6 @@ export const HeaderMenuAuthorizationWrapper = styled.div`
     display: none;
   }
 `
-
 export const HeaderLogIn = styled.a`
   min-width: fit-content;
   padding-right: 17%;

@@ -5,10 +5,10 @@ export const InfoWrapper = styled.div`
   width: 568px;
   padding-top: 97px;
   z-index: 9999;
-  @media only screen and ${sizes.desktop}{
+  @media only screen and ${sizes.desktop} {
     width: 380px;
   }
-  @media only screen and ${sizes.tablet}{
+  @media only screen and ${sizes.tablet} {
     width: 85%;
     margin-left: 40px;
     margin-right: auto;

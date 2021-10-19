@@ -3,10 +3,6 @@ import linesTop from '../../assets/images/lines-top.png'
 import linesBottom from '../../assets/images/lines-bottom.png'
 import { sizes } from '../../mediaQueries'
 
-export const LinesWrapper = styled.div`
-  position: ${props => props.isTop ? 'static' : 'absolute'};
-
-`
 export const LinesImage = styled.div`
   background-image: url(${props => props.isTop ? linesTop : linesBottom});
   width: 1305px;

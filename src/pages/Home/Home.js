@@ -14,7 +14,7 @@ import {
 
 const Home = () => {
   return (
-   <>
+    <>
       <InfoWrapper>
         <Text type={'xsmall'}>
           Booking of doctor’s appointment
@@ -34,7 +34,6 @@ const Home = () => {
         <EmailInputWrapper>
           <EmailInput/>
         </EmailInputWrapper>
-
         <NumberCardWrapper>
           <NumberCard bigText={'240'}>
             Qualified Doctors &
@@ -49,7 +48,6 @@ const Home = () => {
             The Medical Field
           </NumberCard>
         </NumberCardWrapper>
-
       </InfoWrapper>
       <ImgWrapper>
         <MainImage/>

@@ -2,7 +2,6 @@ import React from 'react'
 import { TextMedium, TextXLarge, TextXSmall } from './components'
 
 const Text = ({ children, type }) => {
-
   const renderSwitch = (type, text) => {
     switch (type) {
       case 'xlarge': {
@@ -19,7 +18,6 @@ const Text = ({ children, type }) => {
       }
     }
   }
-
   return (
     <> {renderSwitch(type, children)}</>
   )

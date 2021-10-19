@@ -33,7 +33,8 @@ export default createGlobalStyle`
       border: black 1px solid;
     }
   }
-  p{
+
+  p {
     margin: 0;
   }
 `

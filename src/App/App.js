@@ -9,18 +9,18 @@ import { BrowserRouter, Route } from 'react-router-dom'
 export const App = () => {
   return (
     <BrowserRouter>
-    <ThemeProvider theme={lightTheme}>
+      <ThemeProvider theme={lightTheme}>
         <LayoutWrapper>
           <Lines isTop/>
           <Header/>
           <MainWrapper>
-            <Route path='/'>
+            <Route path="/">
               <Home/>
             </Route>
           </MainWrapper>
           <Lines isTop={false}/>
         </LayoutWrapper>
-    </ThemeProvider>
+      </ThemeProvider>
     </BrowserRouter>
   )
 }

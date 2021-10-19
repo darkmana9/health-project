@@ -18,7 +18,6 @@ export const Header = () => {
         <Wind/>
         Modsen Health
       </HeaderLogo>
-
       <HeaderMenuLinksWrapper>
         <NavLink to="/1">
           Home
@@ -43,7 +42,6 @@ export const Header = () => {
         <PrimaryButton>
           Register
         </PrimaryButton>
-
       </HeaderMenuAuthorizationWrapper>
       <Notification/>
       <BurgerMenu/>

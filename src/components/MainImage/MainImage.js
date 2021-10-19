@@ -1,11 +1,9 @@
 import React from 'react'
 import { Image } from './components'
 
-const MainImage = ({src}) => {
+const MainImage = () => {
   return (
-    <>
-      <Image src={src}/>
-    </>
+    <Image/>
   )
 }
 

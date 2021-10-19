@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/health-project/static/css/main.3ebf650c.chunk.css",
+    "main.js": "/health-project/static/js/main.c8281246.chunk.js",
+    "main.js.map": "/health-project/static/js/main.c8281246.chunk.js.map",
+    "runtime-main.js": "/health-project/static/js/runtime-main.0cfbd673.js",
+    "runtime-main.js.map": "/health-project/static/js/runtime-main.0cfbd673.js.map",
+    "static/js/2.f8db3b86.chunk.js": "/health-project/static/js/2.f8db3b86.chunk.js",
+    "static/js/2.f8db3b86.chunk.js.map": "/health-project/static/js/2.f8db3b86.chunk.js.map",
+    "index.html": "/health-project/index.html",
+    "static/css/main.3ebf650c.chunk.css.map": "/health-project/static/css/main.3ebf650c.chunk.css.map",
+    "static/js/2.f8db3b86.chunk.js.LICENSE.txt": "/health-project/static/js/2.f8db3b86.chunk.js.LICENSE.txt",
+    "static/media/roboto.css": "/health-project/static/media/Robotothinitalic.d8ab3401.woff2",
+    "static/media/lines-bottom.dae1f78b.png": "/health-project/static/media/lines-bottom.dae1f78b.png",
+    "static/media/lines-top.4e710909.png": "/health-project/static/media/lines-top.4e710909.png",
+    "static/media/mail.751e55d4.svg": "/health-project/static/media/mail.751e55d4.svg",
+    "static/media/men-retina.025843b8.png": "/health-project/static/media/men-retina.025843b8.png",
+    "static/media/men.38167131.webp": "/health-project/static/media/men.38167131.webp",
+    "static/media/notification.d83af912.svg": "/health-project/static/media/notification.d83af912.svg",
+    "static/media/wind.4826a306.svg": "/health-project/static/media/wind.4826a306.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cfbd673.js",
+    "static/js/2.f8db3b86.chunk.js",
+    "static/css/main.3ebf650c.chunk.css",
+    "static/js/main.c8281246.chunk.js"
+  ]
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button } from './components'
 
-const PrimaryButton = (props) => {
+const PrimaryButton = ({ children, type }) => {
   return (
-    <Button>{props.children}</Button>
+    <Button type={type}>{children}</Button>
   )
 }
 

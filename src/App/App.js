@@ -1,10 +1,11 @@
 import { Header } from '../components/Header/Header'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme } from '../theme'
-import { LayoutWrapper, MainWrapper } from './components'
+import { LayoutWrapper } from './components'
 import Home from '../pages/Home/Home'
 import Lines from '../components/Lines/Lines'
 import { BrowserRouter, Route } from 'react-router-dom'
+import Contacts from '../pages/Contacts/Contacts'
 
 export const App = () => {
   return (
@@ -13,11 +14,12 @@ export const App = () => {
         <LayoutWrapper>
           <Lines isTop/>
           <Header/>
-          <MainWrapper>
-            <Route path="/">
+            <Route path="/home">
               <Home/>
             </Route>
-          </MainWrapper>
+            <Route path="/contacts">
+              <Contacts/>
+            </Route>
           <Lines isTop={false}/>
         </LayoutWrapper>
       </ThemeProvider>

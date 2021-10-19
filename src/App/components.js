@@ -9,10 +9,3 @@ export const LayoutWrapper = styled.div`
     padding-top: 23px;
   }
 `
-export const MainWrapper = styled.main`
-  display: flex;
-  flex-direction: row;
-  @media only screen and ${sizes.tablet} {
-    flex-direction: column-reverse;
-  }
-`

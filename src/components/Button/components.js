@@ -9,8 +9,17 @@ export const Button = styled.button`
   font-style: normal;
   font-weight: bold;
   color: ${({ theme }) => theme.colors.white};
+  cursor: pointer;
 
   a {
     color: ${({ theme }) => theme.colors.white};
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    filter: brightness(0.8);
   }
 `

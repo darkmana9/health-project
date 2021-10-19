@@ -3,8 +3,8 @@ import { createGlobalStyle } from 'styled-components'
 export default createGlobalStyle`
   body {
     background-color: #EBF1FF;
-    width: 100%;
-    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
     position: relative;

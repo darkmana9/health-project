@@ -7,6 +7,7 @@ import {
   EmailInputWrapper,
   ImgWrapper,
   InfoWrapper,
+  MainWrapper,
   MediumTextWrapper,
   NumberCardWrapper,
   XLargeTextWrapper,
@@ -14,7 +15,7 @@ import {
 
 const Home = () => {
   return (
-    <>
+    <MainWrapper>
       <InfoWrapper>
         <Text type={'xsmall'}>
           Booking of doctor’s appointment
@@ -52,7 +53,7 @@ const Home = () => {
       <ImgWrapper>
         <MainImage/>
       </ImgWrapper>
-   </>
+    </MainWrapper>
   )
 }
 

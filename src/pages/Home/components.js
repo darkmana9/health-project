@@ -31,3 +31,10 @@ export const NumberCardWrapper = styled.div`
 export const EmailInputWrapper = styled.div`
   padding-top: 50px;
 `
+export const MainWrapper = styled.main`
+  display: flex;
+  flex-direction: row;
+  @media only screen and ${sizes.tablet} {
+    flex-direction: column-reverse;
+  }
+`

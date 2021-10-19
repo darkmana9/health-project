@@ -19,7 +19,7 @@ export const Header = () => {
         Modsen Health
       </HeaderLogo>
       <HeaderMenuLinksWrapper>
-        <NavLink to="/1">
+        <NavLink to="/home">
           Home
         </NavLink>
         <NavLink to="/2">
@@ -31,7 +31,7 @@ export const Header = () => {
         <NavLink to="/4">
           Doctors
         </NavLink>
-        <NavLink to="/5">
+        <NavLink to="contacts">
           Contact
         </NavLink>
       </HeaderMenuLinksWrapper>

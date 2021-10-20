@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import notification from '../../assets/icons/notification.svg'
 import burger from '../../assets/icons/burger-menu.png'
 import { sizes } from '../../mediaQueries'

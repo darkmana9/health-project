@@ -6,11 +6,13 @@ export const Email = styled.form`
   position: relative;
 
   input {
+    // @todo: @darkmana9 width: 90% - плохо, лучше 100% + необходимые падинги
     width: 90%;
     box-sizing: border-box;
     border: 0;
     border-radius: 40px;
     height: 68px;
+    // @todo @darkmana9 используй значения с темы, чтобы легко можно было изменить во вмес проекте и было одинаково
     padding-left: 65px;
     z-index: 100;
     font-style: normal;

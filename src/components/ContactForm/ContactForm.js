@@ -4,6 +4,8 @@ import { useForm } from 'react-hook-form'
 import { ErrorMessage, Form, Input } from './components'
 import PrimaryButton from '../Button/PrimaryButton'
 
+// @todo: @darkmana9 тавтология, импорт будет ContactForm/ContactForm, логично сделать index.js и импорт просто ContactForm
+
 const ContactForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm()
   const onSubmit = data => console.log(data)

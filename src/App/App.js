@@ -4,12 +4,13 @@ import { lightTheme } from '../theme'
 import { LayoutWrapper } from './components'
 import Home from '../pages/Home/Home'
 import Lines from '../components/Lines/Lines'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Redirect, Route } from 'react-router-dom'
 import Contacts from '../pages/Contacts/Contacts'
 
 export const App = () => {
   return (
     <BrowserRouter>
+      <Redirect to='/home'/>
       <ThemeProvider theme={lightTheme}>
         <LayoutWrapper>
           <Lines isTop/>

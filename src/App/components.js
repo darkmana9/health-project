@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { sizes } from '../mediaQueries'
+import styled from 'styled-components';
+import { sizes } from '../mediaQueries';
 
 export const LayoutWrapper = styled.div`
   padding-top: 149px;
@@ -8,4 +8,4 @@ export const LayoutWrapper = styled.div`
     padding-left: 0;
     padding-top: 23px;
   }
-`
+`;

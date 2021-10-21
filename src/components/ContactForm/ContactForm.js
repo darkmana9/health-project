@@ -1,15 +1,12 @@
 import React from 'react'
-
 import { useForm } from 'react-hook-form'
+
 import { ErrorMessage, Form, Input } from './components'
-import PrimaryButton from '../Button/PrimaryButton'
+import { PrimaryButton } from '../Button'
 
-// @todo: @darkmana9 тавтология, импорт будет ContactForm/ContactForm, логично сделать index.js и импорт просто ContactForm
-
-const ContactForm = () => {
+export const ContactForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm()
   const onSubmit = data => console.log(data)
-
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
       <label>
@@ -60,5 +57,3 @@ const ContactForm = () => {
     </Form>
   )
 }
-
-export default ContactForm

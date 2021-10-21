@@ -1,22 +1,21 @@
 import React from 'react'
-import { TextMedium, TextXLarge, TextXSmall } from './components'
 
-// @todo: @darkmana9 используй полиморфный проп as (см styled components), https://styled-components.com/docs/api#forwardedas-prop + сделай этот свитч по размеру шрифта с темы в самом styled-components
+import { TextMedium, TextWrapper, TextXLarge, TextXSmall } from './components'
 
-const Text = ({ children, type }) => {
+export const Text = ({ children, type }) => {
   const renderSwitch = (type, text) => {
     switch (type) {
       case 'xlarge': {
-        return <TextXLarge>{text}</TextXLarge>
+        return <TextWrapper as={TextXLarge}>{text}</TextWrapper>
       }
       case 'medium': {
-        return <TextMedium>{text}</TextMedium>
+        return <TextWrapper as={TextMedium}>{text}</TextWrapper>
       }
       case 'xsmall': {
-        return <TextXSmall>{text}</TextXSmall>
+        return <TextWrapper as={TextXSmall}>{text}</TextWrapper>
       }
       default: {
-        return <TextMedium>{text}</TextMedium>
+        return <TextWrapper as={TextMedium}>{text}</TextWrapper>
       }
     }
   }
@@ -24,5 +23,3 @@ const Text = ({ children, type }) => {
     <> {renderSwitch(type, children)}</>
   )
 }
-
-export default Text

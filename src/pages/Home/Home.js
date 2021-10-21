@@ -1,8 +1,5 @@
 import React from 'react'
-import Text from '../../components/Text/Text'
-import EmailInput from '../../components/EmailInput/EmailInput'
-import NumberCard from '../../components/NumberCard/NumberCard'
-import MainImage from '../../components/MainImage/MainImage'
+
 import {
   EmailInputWrapper,
   ImgWrapper,
@@ -12,6 +9,10 @@ import {
   NumberCardWrapper,
   XLargeTextWrapper,
 } from './components'
+import { Text } from '../../components/Text'
+import { EmailInput } from '../../components/EmailInput'
+import { NumberCard } from '../../components/NumberCard'
+import { MainImage } from '../../components/MainImage'
 
 const Home = () => {
   return (

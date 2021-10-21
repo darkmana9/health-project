@@ -1,8 +1,9 @@
 import React from 'react'
-import PrimaryButton from '../Button/PrimaryButton'
-import { Email, Mail } from './components'
 
-const EmailInput = () => {
+import { Email, Mail } from './components'
+import { PrimaryButton } from '../Button'
+
+export const EmailInput = () => {
   return (
     <Email>
       <Mail/>
@@ -14,4 +15,3 @@ const EmailInput = () => {
   )
 }
 
-export default EmailInput

@@ -1,23 +1,19 @@
-const font = 'Roboto'
-
-const background = '#EBF1FF'
-const primary = `#215EE9`
-const black = '#000000'
-const grayBlack = '#333333'
-const menuText = '#7D8790'
-const white = '#ffffff'
-
-const fontSizes = [14, 16, 20, 40, 56, 65]
+const spaces = {
+  percent: [],
+  pixels: [],
+}
 
 export const lightTheme = {
-  font,
-  fontSizes,
+  font: 'Roboto',
+  fontSizes: [14, 16, 20, 40, 56, 65],
+  spaces: spaces,
+  width: [],
   colors: {
-    background: background,
-    primary: primary,
-    black: black,
-    white: white,
-    grayBlack: grayBlack,
-    menuText: menuText,
+    background: '#EBF1FF',
+    primary: `#215EE9`,
+    black: '#000000',
+    white: '#ffffff',
+    grayBlack: '#333333',
+    menuText: '#7D8790',
   },
 }

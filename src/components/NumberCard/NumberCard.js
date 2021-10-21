@@ -1,11 +1,12 @@
 import React from 'react'
+
 import {
   NumberCardBigText,
   NumberCardSmallText,
   NumberCardWrapper,
 } from './components'
 
-const NumberCard = ({ children, bigText, isBlue = false }) => {
+export const NumberCard = ({ children, bigText, isBlue = false }) => {
   return (
     <NumberCardWrapper>
       <NumberCardBigText color={isBlue}>
@@ -17,5 +18,3 @@ const NumberCard = ({ children, bigText, isBlue = false }) => {
     </NumberCardWrapper>
   )
 }
-
-export default NumberCard
